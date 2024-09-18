@@ -41,7 +41,7 @@ jobs:
       - name: Build
         run: |
           xlog \
-          --build . \
+          --build .. \
           --sitename "blackgwe"
           rm *.md
           chmod -R 0777 .
